@@ -15,3 +15,6 @@ while True:
     else:
         print("Correct! You win!")
         break
+    if guess == 10:
+        print ("sorry, you lost!")
+        break
