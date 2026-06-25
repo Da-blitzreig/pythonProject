@@ -1,0 +1,7 @@
+Task 1:
+Given fahrenheit = (celsius * 9/5) + 32
+ Write a python function to convert celsius to fahrenheit
+ for example: if celsius = 25 then your function should output 77 in fahrenheit
+
+Task2:
+Calculate and Print sum of all even numbers from 10 to 20
