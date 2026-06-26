@@ -1,0 +1,51 @@
+Task 1 coding tasks:
+    1a). given 2 integers x, y, write function to its sum square
+      for example, if x=2, y=3, then your function should calculate square of x + square of y which is 4+9=13
+      requirements:
+        - input parameter of the function: x, y
+        - output(return): x**2 + y**2
+        - write code to test/verify your function by calculating the following using your function:
+            1. x=6, y = 8
+            2. x = 12, y = 68
+            3. x = 123, y = 389
+    1b). write a simple keyword function with 2 keyword parameters name and age that print:
+            "Hello ${name}, you are ${age} years old".
+         for example, if name is "SVB", age is 11, then the function should print:
+            "Hello SVB, you are 11 years old".
+      requirements:
+        - input parameter of the function with key words: age, name
+        - print "Hello ${name}, you are ${age} years old".
+        - write code to test/verify your function with below parameters:
+            1. name = Tom, age = 12
+            2. name = Charlie, age = 16
+
+Task2:
+    do functions quiz at
+    https://pynative.com/python-functions-quiz/
+    and put your answers  below:
+
+Question, Answer
+1
+2
+3
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
