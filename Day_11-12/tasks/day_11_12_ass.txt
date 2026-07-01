@@ -1,17 +1,13 @@
 Task 1 coding tasks:
-    Write a Python program to add a new key-value pair to a dictionary, modify an existing value, and access a specific key.
-    Purpose: Learn and practice the most fundamental dictionary operations such as insertion, update, and lookup,
-    which form the backbone of working with key-value data in Python.
-    Testing with below:
-    Given:
-        "name": "Alice",
-        "age": 12,
-        "grade": "7",
-        "address_city": "Toronto"
-    1. add name, age, grade, address_city to a dictionary
-    2. get and print name, age, grade, address_city from the dictionary
-    3. change age to 13, and grade to 8
-    4. get and print name, age and grade, which should be different from result of step 2.
+Given an integer, n, perform the following conditional actions:
+
+If n is odd, print Weird
+If n is even and in the inclusive range of 2 to 5, print Not Weird
+If n is even and in the inclusive range of 6 to 20, print Weird
+If n is even and greater than 20, print Not Weird
+
+Testing with below number:
+    3, 4, 7, 8, 20, 21, 28, 78
 
 Task2:
     do dictionary quiz at
