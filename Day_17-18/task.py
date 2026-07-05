@@ -16,3 +16,9 @@ one = [11, 72, 15, 14, 19, 1671, 12]
 find_last_in_list(one)
 find_third_in_list(one)
 median_in_list(one)
+
+## test your  median_in_list with the below lista:
+# 1. [11, 72, 15, 0, 19, 1671, 12]
+# 2. [11, 72, 15, 0, 1, 1671, 12, 97]
+# 3. [11, 72, 15, 13, 2, 3, 1671, 44, 12, 97]
+# 4. [11, 72, 15, 13, 14, 4, 1671, 44, 12, 97, 99]
