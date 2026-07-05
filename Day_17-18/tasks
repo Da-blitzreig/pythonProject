@@ -2,32 +2,32 @@ task 1: find the last number
 task 2:find the 3rd number
 
 Task3:
-    do dictionary quiz at
-    https://pynative.com/python-dictionary-quiz/
-    and put your answers  below:
-
-Question, Answer
-1
-2
-3
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
+1student.clear()
+2{‘first’: 1, ‘second’: 2, ‘third’: 3}
+3grades[0][1]
+4 Key Not Found
+  10
+5A deep copy, independent of dict1.
+6{'a': 0, 'b': 0}
+7 2
+  {‘a’: 1}
+8 3
+9 Math
+  Science
+  English
+10Set-like view objects
+11Both A and B
+12dict.get(key)
+13An unordered, mutable collection of unique, hashable keys mapped to values.
+14Both A and B (behavior changed in Python 3.7).
+15True
+16{'y': 20, 'z': 10}
+17{'one': 1, 'two': 2}
+18age
+19 1
+20True
+21To get the value of a key, and if the key is not found, insert it with default_value and return that value.
+22 sampleDict['class']['student']['marks']['history']
+23 A list of tuples, where each tuple has two elements (key, value): [('a', 1), ('b', 2)]
+24 Both B and C
+25 dict.clear()
