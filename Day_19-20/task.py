@@ -1,7 +1,7 @@
 def add_lists(first_list, second_list):
     index = []
-    for words in range(len(list1)):
-        index.append(first_list[words] + second_list[words])
+    for i in range(len(first_list)):
+        index.append(first_list[i] + second_list[i])
     return index
 
 
