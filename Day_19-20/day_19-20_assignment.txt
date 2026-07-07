@@ -1,0 +1,6 @@
+give 2 list of integers of the same length.
+Generate another list by adding corresponding numbers in 2 list
+
+example: [1, 2, 3, 5, 7]
+         [3, 5, 7, 1, 2]
+         [4, 7, 10, 6, 9]

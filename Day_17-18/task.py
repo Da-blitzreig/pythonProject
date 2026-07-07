@@ -20,6 +20,7 @@ find_last_in_list(one)
 find_third_in_list(one)
 median_in_list(three)
 
+
 ## test your  median_in_list with the below lista:
 # 1_odd. [11, 72, 15, 0, 19, 1671, 12]
 # 2_even. [11, 72, 15, 0, 1, 1671, 12, 97]
