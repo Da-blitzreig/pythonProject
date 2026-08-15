@@ -20,7 +20,7 @@ elif player == "scissors" and computer == "paper":
     print("You win")
 
 elif player in choices:
-    print("Computer lose")
+    print("you lose")
 
 else:
     print("That's not a valid choice")
