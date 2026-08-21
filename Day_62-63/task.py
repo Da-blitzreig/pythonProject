@@ -1,62 +1,27 @@
 import turtle
-import random
 
-screen = turtle.Screen()
-screen.title("Snake Game")
-screen.bgcolor("black")
-screen.setup(600, 600)
-screen.tracer(0)
-
-snake = turtle.Turtle()
-snake.shape("square")
-snake.color("green")
-snake.penup()
-
-food = turtle.Turtle()
-food.shape("circle")
-food.color("red")
-food.penup()
-food.goto(100, 100)
-
-direction = "stop"
+p = turtle.Turtle()
+p.shape("square")
+p.color("green")
 
 def up():
-    global direction
-    direction = "up"
+    p.sety(p.ycor() + 20)
 
 def down():
-    global direction
-    direction = "down"
+    p.sety(p.ycor() - 20)
 
 def left():
-    global direction
-    direction = "left"
+    p.setx(p.xcor() - 20)
 
 def right():
-    global direction
-    direction = "right"
+    p.setx(p.xcor() + 20)
 
-screen.listen()
+screen = turtle.Screen()
+
 screen.onkey(up, "Up")
 screen.onkey(down, "Down")
 screen.onkey(left, "Left")
 screen.onkey(right, "Right")
 
-while True:
-    if direction == "up":
-        snake.sety(snake.ycor() + 20)
-    elif direction == "down":
-        snake.sety(snake.ycor() - 20)
-    elif direction == "left":
-        snake.setx(snake.xcor() - 20)
-    elif direction == "right":
-        snake.setx(snake.xcor() + 20)
-
-    if snake.distance(food) < 20:
-        food.goto(
-            random.randint(-280, 280),
-            random.randint(-280, 280)
-        )
-
-    screen.update()
-    screen.ontimer(lambda: None, 100)
+screen.listen()
+screen.mainloop()
