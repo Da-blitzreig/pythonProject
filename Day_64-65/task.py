@@ -1,13 +1,12 @@
 import turtle
 
-# Screen
+
 screen = turtle.Screen()
 screen.title("Pong")
 screen.bgcolor("black")
 screen.setup(width=800, height=600)
 screen.tracer(0)
 
-# Left paddle
 paddle_a = turtle.Turtle()
 paddle_a.speed(0)
 paddle_a.shape("square")
@@ -16,7 +15,7 @@ paddle_a.shapesize(stretch_wid=5, stretch_len=1)
 paddle_a.penup()
 paddle_a.goto(-350, 0)
 
-# Right paddle
+
 paddle_b = turtle.Turtle()
 paddle_b.speed(0)
 paddle_b.shape("square")
@@ -25,7 +24,6 @@ paddle_b.shapesize(stretch_wid=5, stretch_len=1)
 paddle_b.penup()
 paddle_b.goto(350, 0)
 
-# Ball
 ball = turtle.Turtle()
 ball.speed(0)
 ball.shape("circle")
@@ -36,7 +34,6 @@ ball.goto(0, 0)
 ball.dx = 3
 ball.dy = 3
 
-# Score
 score_a = 0
 score_b = 0
 
@@ -50,7 +47,7 @@ score.write("Player 1: 0    Player 2: 0",
             align="center",
             font=("Arial", 20, "normal"))
 
-# Paddle controls
+
 def paddle_a_up():
     y = paddle_a.ycor()
     if y < 250:
