@@ -1,6 +1,6 @@
 import turtle
 screen = turtle.Screen()
-screen.title("Turtle Clicker")
+screen.title("turtle clicker")
 screen.bgcolor("lightblue")
 score = 0
 pen = turtle.Turtle()
