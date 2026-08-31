@@ -37,7 +37,7 @@ def clicked(x, y):
     global waiting, ready
 
     if waiting:
-        screen.bgcolor("orange")
+        screen.bgcolor("orange.")
         show_text("too early")
         waiting = False
         ready = False
