@@ -2,7 +2,7 @@ import turtle
 
 
 screen = turtle.Screen()
-screen.title("Maze")
+screen.title("maze")
 screen.setup(800, 600)
 screen.bgcolor("black")
 screen.tracer(0)
@@ -55,7 +55,7 @@ for x, y, width, height in walls:
 
 player = turtle.Turtle()
 player.shape("circle")
-player.color("red")
+player.color("green")
 player.penup()
 player.goto(-300, 200)
 
