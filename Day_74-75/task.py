@@ -2,7 +2,7 @@ import turtle
 
 
 screen = turtle.Screen()
-screen.title("maze")
+screen.title("Maze")
 screen.setup(800, 600)
 screen.bgcolor("black")
 screen.tracer(0)
